@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -1Ap | awk '{printf "%s,", $0}' | sed 's/,$/\n/' | sed 's/\.\.\?,/\n&/' | LC_ALL=C sort -df --key=1.2 | sed 's#/$#,#' | tr -d '\n'
+ls -amvp
