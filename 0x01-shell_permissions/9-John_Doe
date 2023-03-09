@@ -1,2 +1,2 @@
 #!/bin/bash
-chmod 752 hello && chown julien:julien hello && touch -d "2022-09-20 14:25" hello
+chmod 751 hello
